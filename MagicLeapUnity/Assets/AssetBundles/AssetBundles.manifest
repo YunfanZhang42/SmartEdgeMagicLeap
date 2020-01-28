@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 1440196852
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: dragon
+      Dependencies: {}
+    Info_1:
+      Name: lucy
+      Dependencies: {}
+    Info_2:
+      Name: bunny
+      Dependencies: {}
+    Info_3:
+      Name: tesla
+      Dependencies: {}

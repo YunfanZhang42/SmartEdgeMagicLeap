@@ -1,0 +1,276 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "/Users/yunfan/MagicLeap/mlsdk/v0.20.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/yunfan/Downloads/yunfan.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "a47e29ecce52e44e0d6c9b0ce9c172166ca6994d",
+   "xfrm_path": "/Users/yunfan/MagicLeapUnity/.out/.cache/debug_lumin_clang-3.8_aarch64/com.yunfan.cube-0022c68bca8860dd/libc++_shared.so-16e4a7e033e023cc",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "2c16ced01dcb64b65914c545d3d3c310e90fa56a",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 4925848,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "482c633c215a8274aa2c9d1aa9a9a11dac90397b",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 77166400,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/yunfan/Downloads/yunfan.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "30742eec2cc850ecc2a1b6c794fe7ee975117831",
+   "xfrm_path": "/Users/yunfan/MagicLeapUnity/.out/.cache/debug_lumin_clang-3.8_aarch64/com.yunfan.cube-0022c68bca8860dd/libil2cpp.so-625883a92efbb426",
+   "xfrm_size": 77167158
+  },
+  {
+   "compression": 8,
+   "hash": "6b3b1067e8eeb28457c572292a209cc931e93089",
+   "pkgpath": "bin/AudioPluginMSASpatializer.so",
+   "size": 269360,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/Plugins/AudioPluginMSASpatializer.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/yunfan/Downloads/yunfan.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "40f9691dd52cf75bbc6b3750cf3502a94e2070b8",
+   "xfrm_path": "/Users/yunfan/MagicLeapUnity/.out/.cache/debug_lumin_clang-3.8_aarch64/com.yunfan.cube-0022c68bca8860dd/AudioPluginMSASpatializer.so-7e939596c2463fa3",
+   "xfrm_size": 270118
+  },
+  {
+   "compression": 8,
+   "hash": "f16240591751cab0078e249a2a55a3aaa3e957fc",
+   "pkgpath": "bin/UnityEngine.TestRunner.dll",
+   "size": 100864,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/Plugins/UnityEngine.TestRunner.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "59d035b177af853aa8ee2a78714391dae4657a36",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 1495008,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/yunfan/Downloads/yunfan.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "99e7f2c590c1772019983fe12b31ec063864af8b",
+   "xfrm_path": "/Users/yunfan/MagicLeapUnity/.out/.cache/debug_lumin_clang-3.8_aarch64/com.yunfan.cube-0022c68bca8860dd/UnityMagicLeap.so-7e939596c2463fa3",
+   "xfrm_size": 1495766
+  },
+  {
+   "compression": 8,
+   "hash": "e36553e9a3113280d39db515a350a0036cda878d",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/yunfan/Downloads/yunfan.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "b8cd7c044851f8901375de12393eacddd123af53",
+   "xfrm_path": "/Users/yunfan/MagicLeapUnity/.out/.cache/debug_lumin_clang-3.8_aarch64/com.yunfan.cube-0022c68bca8860dd/libml_camera_plugin.so-7e939596c2463fa3",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "0ee8bd5ed3f83c8d11c84a597fb375ec525b0642",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 67624,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/yunfan/Downloads/yunfan.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "f805f3c5719dadd176d97d7ada431bdf38b4b645",
+   "xfrm_path": "/Users/yunfan/MagicLeapUnity/.out/.cache/debug_lumin_clang-3.8_aarch64/com.yunfan.cube-0022c68bca8860dd/libml_mediaplayer_plugin.so-7e939596c2463fa3",
+   "xfrm_size": 68382
+  },
+  {
+   "compression": 8,
+   "hash": "984e4d2049ed5491b970ba15d1e8c8cadac0896e",
+   "pkgpath": "bin/nunit.framework.dll",
+   "size": 339968,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/Plugins/nunit.framework.dll"
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "63c7ca62020949b1c87b1439f31b7a9719db98c1",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 3652028,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "9c080914ee6f4b2c7c72fb6456a90c1d514f1a2f",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 754668,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "10506c7e5f53e331db0e8c7c94047849df023433",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 176,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "b745fa75dcaff3e78c2f59337f21d3a34bb2ebbe",
+   "pkgpath": "Data/boot.config",
+   "size": 267,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "f288215b44d9ab55eff9416b4f695fc84e0aa707",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 50424,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "f17381b62a4343ff6c0908947ff605f6b23560e2",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 58700,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "458e93073308beebd8c0d198b1fdda4f0825b1c5",
+   "pkgpath": "Data/level0",
+   "size": 5820,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "cf5421f07b8ea469cfc60236ed569509c5495e25",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "a68c5b8554490a51165d1bd94120baed43b848ff",
+   "pkgpath": "Data/resources.assets",
+   "size": 1844512,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/resources.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "74e9d02b513bdb93a948dfb832fa5df5d135f94c",
+   "pkgpath": "Data/resources.assets.resS",
+   "size": 451984,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/resources.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "12c3c7f49d7b73a27976f3a5b4907fad9c8f0d5f",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 1505424,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "864de483f4084b04b5d2db8bb126550b09b1bcd1",
+   "pkgpath": "bin/Player.elf",
+   "size": 48673592,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/yunfan/Downloads/yunfan.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "4cfdb627c581951d6d7039a35123f87196d87c82",
+   "xfrm_path": "/Users/yunfan/MagicLeapUnity/.out/.cache/debug_lumin_clang-3.8_aarch64/com.yunfan.cube-0022c68bca8860dd/Player.elf-c72f45830347a4de",
+   "xfrm_size": 48674350
+  },
+  {
+   "compression": 8,
+   "hash": "8294fbbbdcab5017cc275f20f2aa01c040397af2",
+   "pkgpath": "manifest.xml",
+   "size": 3371,
+   "src": "/Users/yunfan/MagicLeapUnity/Temp/StagingArea/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "0fc8554d3624a2d848be62fd8bbadf1cea700f6c",
+     "developer_id": "9d5bb9fc-a035-4a5d-93fd-7023384d9a12"
+    }
+   },
+   "xfrm_hash": "5ec82223f7e8ec3ccf66298282b11992590924f0",
+   "xfrm_path": "/Users/yunfan/MagicLeapUnity/.out/.cache/debug_lumin_clang-3.8_aarch64/com.yunfan.cube-0022c68bca8860dd/manifest.xml-c72f45830347a4de",
+   "xfrm_size": 1112
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/yunfan/Downloads/yunfan.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "/Users/yunfan/Downloads/yunfan.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}
