@@ -22,7 +22,7 @@ def receive_notify():
     return 'notification received'
 
 
-@app.route('/push', methods=['POST'])
+@app.route('/push', methods=['POST', 'GET'])
 def push():
     while not can_download:
         sleep(0.005)
