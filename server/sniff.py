@@ -1,20 +1,18 @@
-from scapy.layers.dot11 import Dot11
-from scapy.all import *
+import subprocess
 from requests import post
+
 
 target_mac = '60:4b:aa:01:59:45'
 notification_url = 'http://vcm-12481.vm.duke.edu/notify/'
 
-found = False
 
+def listen():
+    listen_process = subprocess.Popen(['tcpdump', '-I', '-i', 'mon1', '-p', '-e'], stdout=subprocess.PIPE)
 
-def PacketHandler(pkt):
-    global found
-    if not found and pkt.haslayer(Dot11):
-        if pkt.addr1.lower() == target_mac or pkt.addr2.lower() == target_mac or pkt.addr3.lower() == target_mac:
-            print('found device')
+    for row in iter(listen_process.stdout.readline, b''):
+        if target_mac in row:
             post(url=notification_url, data='found device')
-            found = True
+            print('found magic leap')
 
 
-sniff(iface='en0', prn=PacketHandler)
+listen()
