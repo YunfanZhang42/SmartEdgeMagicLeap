@@ -3,7 +3,6 @@ from werkzeug import secure_filename
 from time import sleep
 
 app = Flask(__name__, static_folder='static', static_url_path='/static')
-g.can_download = False
 
 
 @app.route('/upload', methods=['POST'])
@@ -22,7 +21,7 @@ def receive_notify():
 
 @app.route('/push', methods=['POST', 'GET'])
 def push():
-    while not g.can_download:
+    while not g.pop('can_download', False):
         sleep(0.005)
     return 'Start download'
 
