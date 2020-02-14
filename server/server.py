@@ -1,10 +1,10 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, session
 from werkzeug import secure_filename
 from time import sleep
 
 app = Flask(__name__, static_folder='static', static_url_path='/static')
 
-can_download = False
+session['can_download'] = False
 
 
 @app.route('/upload', methods=['POST'])
@@ -17,14 +17,13 @@ def upload_file():
 
 @app.route('/notify', methods=['POST'])
 def receive_notify():
-    global can_download
-    can_download = True
+    session['can_download'] = True
     return 'notification received'
 
 
 @app.route('/push', methods=['POST', 'GET'])
 def push():
-    while not can_download:
+    while not session['can_download']:
         sleep(0.005)
     return 'Start download'
 
