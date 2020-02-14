@@ -2,7 +2,7 @@ import subprocess
 from requests import post
 
 
-target_mac = '60:4b:aa:01:59:45'
+target_mac = b'60:4b:aa:01:59:45'
 notification_url = 'http://vcm-12481.vm.duke.edu/notify/'
 
 
